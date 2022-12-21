@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEUMEDIA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- jquery -->
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div class="page-logo">
+            <h1>NEUMEDIA</h1>
+            <h2>All in one media downloader</h2>
+        </div>
+        <div class="url-bar-container">
+            <input type="text" spellcheck="false" id="url-bar" placeholder="Enter URL">
+        </div>
+        <div class="settings" id="settings">
+            <div class="checkbox" id="auto_tag_music">
+                <div class="box">
+                    <div class="fill"></div>
+                </div>
+                Automatically tag music
+            </div>
+            <div class="checkbox" id="find_cover_art">
+                <div class="box">
+                    <div class="fill"></div>
+                </div>
+                Find cover art
+            </div>
+            <div class="checkbox" id="find_cover_art">
+                <div class="box">
+                    <div class="fill"></div>
+                </div>
+                Automatically split youtube mixes
+            </div>
+            <div class="button">
+                <button id="continue">Continue</button>
+            </div>
+        </div>
+        <div class="info-area" id="info-area">
+            <div class="loader" id="loader">
+                <img src="./assets/img/spinner.svg" alt="Loading...">
+                <span>Fetching media information...</span>
+            </div>
+            <div class="info-list" id="info-list">
+              
+            </div>
+        </div>
+        <script src="assets/js/script.js" async defer></script>
+    </body>
+</html>
