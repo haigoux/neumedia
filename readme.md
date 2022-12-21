@@ -1,4 +1,4 @@
-# NEUMEDIA
+# NEUMEDIA (NO WORKING BUILDS)
 
 ## What is it?
 ### NEUMEDIA is a locally hosted WebUI that makes it easier to download music and videos from the web.
